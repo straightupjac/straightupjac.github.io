@@ -1,2 +1,5 @@
-# straightupjac.github.io
+# Hey there 👋 
+## Portfolio
+straightupjac.github.io
+
 jaclynchan.me
