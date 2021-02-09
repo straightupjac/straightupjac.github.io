@@ -11,7 +11,7 @@
       color=primary
       fade-img-on-scroll
     >
-    <v-switch
+    <!-- <v-switch
       color=invert
       class="ml-15 mt-5"
       inset
@@ -19,7 +19,7 @@
       prepend-icon="mdi-weather-sunny"
       append-icon="mdi-moon-waning-crescent"
     >
-    </v-switch>
+    </v-switch> -->
     <v-spacer/>
     <div class="ml-10 mr-10">
     <v-btn
