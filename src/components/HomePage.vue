@@ -49,8 +49,8 @@
                     </v-col>
                   </v-row>
                   <v-col class=text-right>
-                    <v-btn href="./files/resume.pdf" target="_blank" tile color=white elevation=0 class="site-btn">resume</v-btn>
-                    <v-btn tile elevation=0 class="site-btn">more</v-btn>
+                    <v-btn tile href="./files/resume.pdf" target="_blank" elevation=0 class="site-btn">resume</v-btn>
+                    <v-btn to="/work" tile elevation=0 class="site-btn">more</v-btn>
                   </v-col>
                 </v-col>
               </v-row>

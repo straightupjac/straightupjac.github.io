@@ -38,7 +38,7 @@
       >
       work
       </v-btn>
-      <v-btn
+      <!-- <v-btn
         to="/community"
         target=""
         text
@@ -46,15 +46,15 @@
         active-class="current"
       >
       community
-      </v-btn>
-      <v-btn
+      </v-btn> -->
+      <!-- <v-btn
         to="/creative"
         target=""
         text
         class="text-center nav-button"
       >
       creative
-      </v-btn>
+      </v-btn> -->
             <v-btn
         to="/about"
         target=""
