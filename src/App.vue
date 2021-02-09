@@ -22,22 +22,22 @@
     </v-switch> -->
     <v-spacer/>
     <div class="ml-10 mr-10">
-    <v-btn
+    <!-- <v-btn
         to="/"
         target=""
         text
         class="text-center nav-button"
       >
         <span class="mr-2">home</span>
-      </v-btn>
-      <v-btn
+      </v-btn> -->
+      <!-- <v-btn
         to="/work"
         target=""
         text
         class="text-center nav-button"
       >
       work
-      </v-btn>
+      </v-btn> -->
       <!-- <v-btn
         to="/community"
         target=""
@@ -55,14 +55,14 @@
       >
       creative
       </v-btn> -->
-            <v-btn
+      <!-- <v-btn
         to="/about"
         target=""
         text
         class="text-center nav-button"
       >
         <span class="mr-2">about</span>
-      </v-btn>
+      </v-btn> -->
     </div>
     </v-app-bar>
 
