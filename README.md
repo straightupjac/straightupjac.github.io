@@ -2,4 +2,4 @@
 ## Portfolio
 straightupjac.github.io
 
-jaclynchan.me
+[jaclynchan.me](https://jaclynchan.me)
