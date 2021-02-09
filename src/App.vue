@@ -31,15 +31,6 @@
         <span class="mr-2">home</span>
       </v-btn>
       <v-btn
-        to="/about"
-        target=""
-        text
-        class="text-center nav-button"
-      >
-        <span class="mr-2">about</span>
-      </v-btn>
-
-      <v-btn
         to="/work"
         target=""
         text
@@ -48,13 +39,29 @@
       work
       </v-btn>
       <v-btn
-        to="/fun"
+        to="/community"
         target=""
         text
         class="text-center nav-button"
         active-class="current"
       >
-      fun
+      community
+      </v-btn>
+      <v-btn
+        to="/creative"
+        target=""
+        text
+        class="text-center nav-button"
+      >
+      creative
+      </v-btn>
+            <v-btn
+        to="/about"
+        target=""
+        text
+        class="text-center nav-button"
+      >
+        <span class="mr-2">about</span>
       </v-btn>
     </div>
     </v-app-bar>

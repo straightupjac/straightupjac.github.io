@@ -37,7 +37,7 @@
             <v-img
               :src="require('../assets/JaclynCover.jpg')"
               contain
-              class="rounded-lg"
+              class="rounded-circle"
             />
           </v-col>
         </v-row>

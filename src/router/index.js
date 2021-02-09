@@ -4,15 +4,16 @@ import Router from 'vue-router';
 import HomePage from '@/components/HomePage.vue';
 import About from '@/components/About.vue';
 import Work from '@/components/Work.vue';
-import Fun from '@/components/Fun.vue';
+import Creative from '@/components/Creative.vue';
+import Community from '@/components/Community.vue';
 import NotFound from '@/components/NotFound.vue';
 
 Vue.use(Router);
 
 const routes = [
   {
-    path:'/',
-    name:'Home',
+    path: '/',
+    name: 'Home',
     component: HomePage,
   },
   {
@@ -24,8 +25,12 @@ const routes = [
     component: Work,
   },
   {
-    path: '/fun',
-    component: Fun,
+    path: '/creative',
+    component: Creative,
+  },
+  {
+    path: '/community',
+    component: Community,
   },
   {
     path: '/*',
@@ -34,7 +39,7 @@ const routes = [
 ];
 
 const router = new Router({
-  mode: "hash",
+  mode: "history",
   routes,
   base: process.env.BASE_URL,
 });

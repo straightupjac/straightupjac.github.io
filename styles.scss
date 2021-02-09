@@ -780,3 +780,13 @@ $title-font: 'Poppins';
 .theme--light.v-application {
   background-color: var(--v-background-base, white) !important;
 }
+
+.card-actions {
+  position: absolute;
+  bottom: 0;
+}
+
+.card-outer {
+  position: relative;
+  padding-bottom: 40px;
+}
