@@ -60,12 +60,12 @@
     <div id="skills">
        <v-container>
       <v-row no-gutters>
-        <v-col md=6>
+        <v-col>
           <h2>Skills</h2>
         </v-col>
       </v-row>
       <v-row no-gutters>
-        <v-col>
+        <v-col cols="12" md=3 xs=12>
           <v-card elevation=0>
             <v-card-title>
               <h3>Languages 👩‍💻</h3>
@@ -77,7 +77,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col>
+        <v-col xs=6 md=3>
           <v-card elevation=0>
             <v-card-title>
             <h3>Tools 🧰</h3>
@@ -89,7 +89,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col>
+        <v-col md=3>
           <v-card elevation=0>
             <v-card-title>
             <h3>Creative 💃</h3>
@@ -101,7 +101,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col>
+        <v-col md=3 sm=12>
           <v-card elevation=0 tile>
             <v-card-title>
             <h3>Interpersonal 🤝</h3>
@@ -124,7 +124,7 @@
         </v-col>
       </v-row>
       <v-row justify="center" class="d-flex">
-        <v-col md=3 class="d-flex">
+        <v-col sm=6 md=3 xs=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
           <v-card-text>
             <h3 class=mb-2>16 Weeks</h3>
@@ -140,7 +140,7 @@
           </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md=3 class="d-flex">
+        <v-col sm=6  md=3 xs=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
             <h3 class=mb-2>SoGal Waterloo</h3>
@@ -156,7 +156,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md=3 class="d-flex">
+        <v-col sm=6 md=3 xs=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
             <h3 class=mb-2>BitFinca</h3>
@@ -171,7 +171,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md=3 class="d-flex">
+        <v-col sm=6 md=3 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
             <h3 class=mb-2>Tech+</h3>
@@ -188,7 +188,7 @@
         </v-col>
       </v-row>
       <v-row justify="center" class="d-flex">
-        <v-col class="d-flex">
+        <v-col md=3 xs=6 sm=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
             <h3 class=mb-2>Pearshare</h3>
@@ -203,7 +203,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col class="d-flex">
+        <v-col md=3 xs=6 sm=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
             <h3 class=mb-2>SpaceLab</h3>
@@ -219,7 +219,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col class="d-flex">
+        <v-col cols=6 md=3 xs=6 sm=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
             <h3 class=mb-2>TEDxYouth@SAS</h3>
@@ -234,7 +234,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col class="d-flex">
+        <v-col md=3 xs=6 sm=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
             <h3 class=mb-2>FIRST Robotics</h3>
