@@ -7,7 +7,7 @@ set -e
 yarn build
 
 # if you are deploying to a custom domain
-# echo 'jaclynchan.me' > CNAME
+echo 'jaclynchan.me' > docs/CNAME
 
 git add -A
 git commit -m 'deploy'

@@ -60,12 +60,12 @@
     <div id="skills">
        <v-container>
       <v-row no-gutters>
-        <v-col md=6 offset-md=1>
+        <v-col md=6>
           <h2>Skills</h2>
         </v-col>
       </v-row>
       <v-row no-gutters>
-        <v-col offset-md=1>
+        <v-col>
           <v-card elevation=0>
             <v-card-title>
               <h3>Languages 👩‍💻</h3>
@@ -119,12 +119,12 @@
     <div id="projects">
       <v-container>
         <v-row no-gutters>
-        <v-col md=6 offset-md=1>
+        <v-col>
           <h2>Discover my work</h2>
         </v-col>
       </v-row>
-      <v-row class="d-flex">
-        <v-col class="d-flex" offset-md=1>
+      <v-row justify="center" class="d-flex">
+        <v-col md=3 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
           <v-card-text>
             <h3 class=mb-2>16 Weeks</h3>
@@ -140,8 +140,8 @@
           </v-card-actions>
           </v-card>
         </v-col>
-        <v-col class="d-flex">
-          <v-card  elevation=0 class="card-outer">
+        <v-col md=3 class="d-flex">
+          <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
             <h3 class=mb-2>SoGal Waterloo</h3>
             <img contain :src="require('../assets/projects/SoGal.png')"/>
@@ -156,7 +156,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col class="d-flex">
+        <v-col md=3 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
             <h3 class=mb-2>BitFinca</h3>
@@ -171,8 +171,8 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col class="d-flex">
-          <v-card elevation=0 class="card-outer">
+        <v-col md=3 class="d-flex">
+          <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
             <h3 class=mb-2>Tech+</h3>
             <img contain :src="require('../assets/projects/techplus.png')"/>
@@ -187,9 +187,9 @@
           </v-card>
         </v-col>
       </v-row>
-      <v-row>
-        <v-col class="d-flex" offset-md=1>
-          <v-card elevation=0 class="card-outer">
+      <v-row justify="center" class="d-flex">
+        <v-col class="d-flex">
+          <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
             <h3 class=mb-2>Pearshare</h3>
             <img contain :src="require('../assets/projects/pearshare.png')"/>
@@ -207,7 +207,7 @@
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
             <h3 class=mb-2>SpaceLab</h3>
-            <img class="rounded-lg" contain :src="require('../assets/projects/spacelab.png')"/>
+            <img class="rounded-lg" contain :src="require('../assets/projects/rocket.png')"/>
             </v-card-text>
               <v-card-text>
               First team in Southeast Asia to win SGD$60k grant to launch biology experiment sent to the International Space Station.
@@ -220,10 +220,10 @@
           </v-card>
         </v-col>
         <v-col class="d-flex">
-          <v-card elevation=0 class="card-outer">
+          <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
             <h3 class=mb-2>TEDxYouth@SAS</h3>
-            <img class="rounded-lg" contain :src="require('../assets/projects/ted.jpg')"/>
+            <img class="rounded-lg" contain :src="require('../assets/projects/turningtides.png')"/>
             </v-card-text>
              <v-card-text>
               Executive Producer. Lead Organizer. Selected to attend TEDFest 2018, an official TED conference in NYC
@@ -238,7 +238,7 @@
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
             <h3 class=mb-2>FIRST Robotics</h3>
-            <img class="rounded-lg" contain :src="require('../assets/projects/onedeg.png')"/>
+            <img class="rounded-lg" contain :src="require('../assets/projects/robot.png')"/>
             </v-card-text>
             <v-card-text>
               Team Captain. Youth Mentor. Project Manager. Awarded Excellence in Robotics Award, Senior Technology Award and PTA Scholar Award for contributions to robotics
