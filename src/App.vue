@@ -22,22 +22,22 @@
     </v-switch> -->
     <v-spacer/>
     <div class="ml-10 mr-10">
-    <!-- <v-btn
+    <v-btn
         to="/"
         target=""
         text
         class="text-center nav-button"
       >
-        <span class="mr-2">home</span>
-      </v-btn> -->
-      <!-- <v-btn
+        <span>home</span>
+      </v-btn>
+      <v-btn
         to="/work"
         target=""
         text
         class="text-center nav-button"
       >
       work
-      </v-btn> -->
+      </v-btn>
       <!-- <v-btn
         to="/community"
         target=""
@@ -72,7 +72,6 @@
       </transition>
     </v-main>
 
-    <app-footer>
       <v-footer
         padless
       >
@@ -105,7 +104,6 @@
           </v-card-text>
         </v-card>
       </v-footer>
-    </app-footer>
   </v-app>
 </div>
 </template>

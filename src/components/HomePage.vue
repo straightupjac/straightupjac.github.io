@@ -50,7 +50,7 @@
                   </v-row>
                   <v-col class=text-right>
                     <v-btn tile href="./files/resume.pdf" target="_blank" elevation=0 class="site-btn">resume</v-btn>
-                    <v-btn to="/work" tile elevation=0 class="site-btn">more</v-btn>
+                    <v-btn to="/about" tile elevation=0 class="site-btn">more</v-btn>
                   </v-col>
                 </v-col>
               </v-row>
@@ -116,22 +116,28 @@
       </v-row>
     </v-container>
     </div>
-    <div id="projects">
+        <div id="projects">
       <v-container>
         <v-row no-gutters>
         <v-col>
           <h2>Discover my work</h2>
         </v-col>
+        <v-spacer/>
+        <v-btn
+          tile to='/work'
+          elevation=0 class="mt-4 site-btn">
+          See more
+        </v-btn>
       </v-row>
       <v-row justify="center" class="d-flex">
         <v-col sm=6 md=3 xs=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
           <v-card-text>
-            <h3 class=mb-2>16 Weeks</h3>
-            <img contain :src="require('../assets/projects/16weekslogo.png')"/>
+            <h3 class=mb-2>{{projects.sixteenWeeks.title}}</h3>
+            <img contain :src="require(`@/${projects.sixteenWeeks.image}`)"/>
           </v-card-text>
           <v-card-text>
-            Content Director. A group of Engineering and CS students sharing our experiences in tech across different roles, locations, and companies!
+            {{projects.sixteenWeeks.description}}
           </v-card-text>
           <v-card-actions class="card-actions">
             <v-spacer></v-spacer>
@@ -143,11 +149,11 @@
         <v-col sm=6  md=3 xs=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
-            <h3 class=mb-2>SoGal Waterloo</h3>
-            <img contain :src="require('../assets/projects/SoGal.png')"/>
+            <h3 class=mb-2>{{projects.soGal.title}}</h3>
+            <img contain :src="require(`@/${projects.soGal.image}`)"/>
              </v-card-text>
              <v-card-text>
-              Marketing Lead. Working to close the diversity gap in entrepreneurship and venture capital.
+               {{projects.soGal.description}}
              </v-card-text>
              <v-card-actions class="card-actions">
             <v-spacer></v-spacer>
@@ -159,11 +165,11 @@
         <v-col sm=6 md=3 xs=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
-            <h3 class=mb-2>BitFinca</h3>
-            <img contain :src="require('../assets/projects/bitfinca.png')"/>
+            <h3 class=mb-2>{{projects.bitFinca.title}}</h3>
+            <img contain :src="require(`@/${projects.bitFinca.image}`)"/>
              </v-card-text>
              <v-card-text>
-              MarketMake Hackathon. A blockchain-based lending platform that allows anyone to microinvest in ventures that matter.
+               {{projects.bitFinca.description}}
              </v-card-text>
             <v-card-actions class="card-actions">
             <v-spacer></v-spacer>
@@ -174,11 +180,11 @@
         <v-col sm=6 md=3 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
              <v-card-text>
-            <h3 class=mb-2>Tech+</h3>
-            <img contain :src="require('../assets/projects/techplus.png')"/>
+            <h3 class=mb-2>{{projects.techplus.title}}</h3>
+            <img contain :src="require(`@/${projects.techplus.image}`)"/>
             </v-card-text>
             <v-card-text>
-              Mentorship Program Organizer. Cultivating a more inclusive and diverse tech community at UWaterloo.
+              {{projects.techplus.description}}
              </v-card-text>
             <v-card-actions class="card-actions">
             <v-spacer></v-spacer>
@@ -191,11 +197,11 @@
         <v-col md=3 xs=6 sm=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
-            <h3 class=mb-2>Pearshare</h3>
-            <img contain :src="require('../assets/projects/pearshare.png')"/>
+            <h3 class=mb-2>{{projects.pearShare.title}}</h3>
+            <img contain :src="require(`@/${projects.pearShare.image}`)"/>
             </v-card-text>
               <v-card-text>
-              Angelhack Singapore 2018. Code for a Cause Impact Winner. Reducing food wastage.
+              {{projects.pearShare.description}}
              </v-card-text>
             <v-card-actions class="card-actions">
             <v-spacer></v-spacer>
@@ -206,12 +212,11 @@
         <v-col md=3 xs=6 sm=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
-            <h3 class=mb-2>SpaceLab</h3>
-            <img class="rounded-lg" contain :src="require('../assets/projects/rocket.png')"/>
+            <h3 class=mb-2>{{projects.spaceLab.title}}</h3>
+            <img class="rounded-lg" contain :src="require(`@/${projects.spaceLab.image}`)"/>
             </v-card-text>
               <v-card-text>
-              First team in Southeast Asia to win SGD$60k grant to launch biology experiment sent to the International Space Station.
-              Launched on the SpaceX Falcon 9 on June 4, 2017.
+              {{projects.spaceLab.description}}
              </v-card-text>
             <v-card-actions class="card-actions">
              <v-spacer class="d-flex justify-space-between align-end" />
@@ -222,11 +227,11 @@
         <v-col cols=6 md=3 xs=6 sm=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
-            <h3 class=mb-2>TEDxYouth@SAS</h3>
-            <img class="rounded-lg" contain :src="require('../assets/projects/turningtides.png')"/>
+            <h3 class=mb-2>{{projects.ted.title}}</h3>
+            <img class="rounded-lg" contain :src="require(`@/${projects.ted.image}`)"/>
             </v-card-text>
              <v-card-text>
-              Executive Producer. Lead Organizer. Selected to attend TEDFest 2018, an official TED conference in NYC
+               {{projects.ted.description}}
              </v-card-text>
             <v-card-actions class="card-actions">
              <v-spacer class="d-flex justify-space-between align-end" />
@@ -237,11 +242,11 @@
         <v-col md=3 xs=6 sm=6 class="d-flex">
           <v-card color=primary elevation=0 class="card-outer">
             <v-card-text>
-            <h3 class=mb-2>FIRST Robotics</h3>
-            <img class="rounded-lg" contain :src="require('../assets/projects/robot.png')"/>
+            <h3 class=mb-2>{{projects.frc.title}}</h3>
+            <img class="rounded-lg" contain :src="require(`@/${projects.frc.image}`)"/>
             </v-card-text>
             <v-card-text>
-              Team Captain. Youth Mentor. Project Manager. Awarded Excellence in Robotics Award, Senior Technology Award and PTA Scholar Award for contributions to robotics
+              {{projects.frc.description}}
              </v-card-text>
             <v-card-actions class="card-actions">
              <v-spacer class="d-flex justify-space-between align-end" />
@@ -268,6 +273,7 @@
 import ComingSoon from './projects/ComingSoon.vue';
 import SpaceLab from './projects/SpaceLab.vue';
 import TEDx from './projects/TedX.vue';
+import Projects from '@/assets/projects.json';
 
 export default {
   name: "Home",
@@ -276,16 +282,18 @@ export default {
     SpaceLab,
     TEDx,
   },
-  data: () => ({
-    show: false,
-  }),
+  data () {
+    return {
+      projects: Projects,
+    }
+  },
   mounted() {
     this.show = ! this.show;
   },
 };
 </script>
 
-<style>
+<style scoped>
 
 #projects {
   background: #f9f9f9;
