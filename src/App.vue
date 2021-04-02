@@ -118,6 +118,7 @@ export default {
       {icon: "mdi-linkedin", link: "https://www.linkedin.com/in/jaclyndchan/",},
       {icon: "mdi-instagram", link: "https://www.instagram.com/straightupraspberry", },
       {icon: "mdi-twitter", link: "https://twitter.com/straightupjac"},
+      {icon: "mdi-github", link: "https://github.com/straightupjac"},
       {icon: "mdi-email", link: "mailto:jdc.jaclyn@gmail.com"},
       ],
     goDark: false,
