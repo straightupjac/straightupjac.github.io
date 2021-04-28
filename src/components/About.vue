@@ -4,7 +4,7 @@
     <div class="primary landing full-height">
       <v-container>
         <v-row no-gutters>
-          <v-col md=5 offset-md=2>
+          <v-col>
           <h2>Jaclyn Chan</h2>
           <h3 class=mb-3>Software Engineer. <a href='/' style="color:#88b1b1;text-decoration: none;">Creator.</a></h3>
             <v-slide-x-transition>
@@ -27,15 +27,6 @@
                 </v-card-text></v-card>
               </div>
             </v-slide-x-transition>
-          </v-col>
-          <v-col
-            md="3"
-            lg="3">
-            <v-img
-              :src="require('../assets/JaclynCover.jpg')"
-              contain
-              class="rounded-circle ma-4"
-            />
           </v-col>
         </v-row>
         <v-row>

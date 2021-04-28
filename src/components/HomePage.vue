@@ -20,7 +20,7 @@
             <v-img
               :src="require('../assets/JaclynCover.jpg')"
               contain
-              class="rounded-circle ma-4"
+              class="rounded-lg ma-4"
             />
           </v-col>
         </v-row>
@@ -49,7 +49,7 @@
                     </v-col>
                   </v-row>
                   <v-col class=text-right>
-                    <v-btn tile href="./files/resume.pdf" target="_blank" elevation=0 class="site-btn">resume</v-btn>
+                    <v-btn tile href="./files/jaclyn-chan-resume.pdf" target="_blank" elevation=0 class="site-btn">resume</v-btn>
                     <v-btn to="/about" tile elevation=0 class="site-btn">more</v-btn>
                   </v-col>
                 </v-col>
