@@ -144,27 +144,13 @@ ol {
 }
 
 /* Site Buttons */
-.v-btn {
-	padding: 5px 10px;
-}
-
-.site-btn {
-	display: inline-block;
+.site-btn{
 	text-transform: uppercase;
-	font-size: 12px;
-	min-width: 213px;
-	min-height: 20px;
-	text-align: center;
-	padding: 20px 10px 10px;
-	position: relative;
-	background-color: #fff;
-	margin-right: 10px;
 	border: 2px solid #40424a;
-	color: #40424a;
-	font-weight: 700;
+	margin-right: 10px;
 }
 
-.site-btn:hover {
+.v-btn:hover {
 	color: #40424a;
 }
 
