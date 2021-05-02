@@ -225,9 +225,6 @@ data () {
       projects: Projects,
     }
 },
-mounted() {
-  console.log(this.projects.sixteenWeeks);
-},
 };
 </script>
 
