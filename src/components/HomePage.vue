@@ -20,7 +20,7 @@
             <v-img
               :src="require('../assets/JaclynCover.jpg')"
               contain
-              class="ma-4"
+              class="rounded-lg ma-4"
             />
           </v-col>
         </v-row>

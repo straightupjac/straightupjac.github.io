@@ -27,7 +27,7 @@
             <v-img
               :src="require('../assets/jaclyn_.jpg')"
               contain
-              class="ma-4"
+              class="rounded-lg ma-4"
             />
           </v-col>
         </v-row>
