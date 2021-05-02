@@ -22,9 +22,15 @@
           align="center"
           justify="center"
         >
-        <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0>Gallery</v-btn>
-        <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0>Choreography</v-btn>
-        <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0>Performances</v-btn>
+        <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0
+          @click=" $router.push('/creative/gallery') "
+        >Gallery</v-btn>
+        <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0
+          @click=" $router.push('/creative/choreography') "
+        >Choreography</v-btn>
+        <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0
+          @click=" $router.push('/creative/performances') "
+        >Performances</v-btn>
         </v-row>
       </v-container>
     </div>
