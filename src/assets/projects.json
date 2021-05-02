@@ -10,6 +10,21 @@
       }
     ]
   },
+  "frv" : {
+    "title": "Front Row Ventures",
+    "description": "Investment Team. FRV is Canada's first university-focused venture capital fund investing in Canada's most promising university founders.",
+    "image": "assets/projects/frv.png",
+    "links": [
+      {
+        "icon": "mdi-web",
+        "link": "http://frontrow.vc/"
+      },
+      {
+        "icon": "mdi-linkedin",
+        "link": "https://www.linkedin.com/company/front-row-ventures/"
+      }
+    ]
+  },
   "soGal" : {
     "title": "SoGal Waterloo",
     "description": "Marketing Lead. Working to close the diversity gap in entrepreneurship and venture capital.",

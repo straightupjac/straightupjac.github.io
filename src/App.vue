@@ -1,14 +1,14 @@
 <template>
 <div id="app">
   <v-app
-    background=primary
+    background=secondary
     :dark="setTheme()"
   >
     <v-app-bar
       id="app-bar"
       elevation="0"
       app
-      color=primary
+      color=secondary
       fade-img-on-scroll
     >
     <!-- <v-switch
@@ -39,15 +39,6 @@
       work
       </v-btn>
       <!-- <v-btn
-        to="/community"
-        target=""
-        text
-        class="text-center nav-button"
-        active-class="current"
-      >
-      community
-      </v-btn> -->
-      <!-- <v-btn
         to="/creative"
         target=""
         text
@@ -55,14 +46,14 @@
       >
       creative
       </v-btn> -->
-      <!-- <v-btn
+      <v-btn
         to="/about"
         target=""
         text
         class="text-center nav-button"
       >
         <span class="mr-2">about</span>
-      </v-btn> -->
+      </v-btn>
     </div>
     </v-app-bar>
 
@@ -73,13 +64,14 @@
     </v-main>
 
       <v-footer
+        class=footer-section
         padless
       >
         <v-card
           flat
           tile
           width=100%
-          class="primary"
+          class="secondary"
         >
         <v-card-title class="ml-10 mr-10">
           Like what you see?

@@ -5,7 +5,6 @@ import HomePage from '@/components/HomePage.vue';
 import About from '@/components/About.vue';
 import Work from '@/components/Work.vue';
 import Creative from '@/components/Creative.vue';
-import Community from '@/components/Community.vue';
 import NotFound from '@/components/NotFound.vue';
 
 Vue.use(Router);
@@ -27,10 +26,6 @@ const routes = [
   {
     path: '/creative',
     component: Creative,
-  },
-  {
-    path: '/community',
-    component: Community,
   },
   {
     path: '/*',
