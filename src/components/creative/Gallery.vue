@@ -12,7 +12,6 @@
         Back
       </v-btn>
     </v-row>
-    <VueGallerySlideshow :images="images" :index="index" @close="index = null"></VueGallerySlideshow>
     <v-row no-gutters>
       <v-img
         class="creative-img"
@@ -111,10 +110,10 @@
         class="creative-img"
         src="../../assets/art/red.jpg"
       /><v-img
-        class="creative-img"
+        class="creative-img fit"
         src="../../assets/art/red-2.jpg"
       /><v-img
-        class="creative-img"
+        class="creative-img fit"
         src="../../assets/art/red-3.jpg"
       />
     </v-row>
@@ -123,8 +122,6 @@
 </template>
 
 <script>
-import VueGallerySlideshow from 'vue-gallery-slideshow';
-
 export default {
   name: "Gallery",
   data() {
@@ -135,15 +132,17 @@ export default {
       ]
     }
   },
-  components: {
-    VueGallerySlideshow,
-  }
 }
 </script>
 
 <style>
 .creative-img {
-  height: 350px;
-  width:400px;
+  height: 280px;
+  width:300px;
+}
+
+.fit {
+  width: 400px;
+  height: 500px;
 }
 </style>

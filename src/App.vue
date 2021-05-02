@@ -72,7 +72,7 @@
             Let's connect
             <v-btn
               v-for="icon in icons"
-              :key="icon"
+              :key="icon.link"
               :href="icon.link"
               target="_blank"
               class="mx-4"
