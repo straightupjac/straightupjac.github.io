@@ -1,11 +1,16 @@
 <template>
-  <div id="projects">
-    <v-container>
+  <div>
+    <v-container id="top">
       <v-row no-gutters>
-      <v-col md=10>
+      <v-col md=9>
         <h2>What I've worked on...</h2>
       </v-col>
       <v-spacer/>
+      <v-btn
+        @click="$vuetify.goTo('#featuredProjects')"
+        elevation=0 class="mt-4 site-btn" tile>
+        Projects
+      </v-btn>
       <v-btn
         tile href="./files/jaclyn-chan-resume.pdf" target="_blank"
         elevation=0 class="mt-4 site-btn">
@@ -95,8 +100,16 @@
         </v-card>
       </v-col>
       </v-row>
-
-    <h3>Projects</h3>
+    <div id=featuredProjects>
+      <v-row>
+         <h3>Projects</h3>
+         <v-spacer/>
+        <v-btn
+          @click="$vuetify.goTo('#top')"
+          elevation=0 class="mt-4 site-btn" tile>
+          Back to top
+        </v-btn>
+      </v-row>
     <v-row justify="center" class="d-flex">
       <v-col sm=6 md=4 xs=6 class="d-flex">
         <v-card color=secondary elevation=0 class="card-outer">
@@ -189,6 +202,7 @@
         </v-card>
       </v-col>
     </v-row>
+    </div>
     </v-container>
   </div>
 </template>
