@@ -34,14 +34,18 @@
         <v-row>
           <v-col>
             <p>
-              I am a computer science and finance student fascinated with software, fintech and venture capital.
-              I am currently a software engineer at <a href="https://www.curvegrid.com/" target="_blank">Curvegrid</a>, a blockchain tooling company based in Tokyo and a venture capital intern at <a href="https://www.kirinadams.com/" target="_blank">Kirin Adams</a>.
-              During summer 2020, I worked at <a href="https://www.cppinvestments.com/" target="_blank">CPP Investments</a>, a global investment management organisation with CAD$400+ billion assets under management as a quantitative equity engineer intern.
-              I previously interned at <a href="https://www.aptiv.com/en/solutions/autonomous-mobility" target="_blank">nuTonomy</a> (acquired by Aptiv) as a robotics engineer intern on the embedded systems team.
+              I am currently a
+              <span class=software>software engineer</span> at
+              <a href="https://www.curvegrid.com/" target="_blank">
+                <span class=curvegrid>
+                Curvegrid</span></a>, a blockchain tooling company based in Tokyo.
+              I am also a <span class=vc>venture capital</span> intern at <a href="https://www.kirinadams.com/" target="_blank"><span class=kirin>Kirin Adams</span></a> and on the investment team at <a href="http://frontrow.vc/" target="_blank">Front Row Ventures</a>.
+              During summer 2020, I worked at <a href="https://www.cppinvestments.com/" target="_blank"><span class=cpp>CPP Investments</span></a>, a global investment management organisation with CAD$400+ billion assets under management as a <span class=quant>quantitative equity</span> engineer intern.
+              I previously interned at <a href="https://www.aptiv.com/en/solutions/autonomous-mobility" target="_blank"><span class=nutonomy>nuTonomy</span></a> (acquired by Aptiv) as a <span class=robotics>robotics engineer</span> intern on the embedded systems team.
             </p>
             <br/>
             <p>
-              When I'm not programming or learning about tech startups, you can find me dancing in a studio, practicing yoga, singing in an a cappella rehearsal or stunting in cheer practice. 💃
+              When I'm on not on my computer, you can find me dancing in a studio, practicing yoga, singing in an a cappella rehearsal or stunting in cheer practice.
             </p>
             <br/>
             <p>
