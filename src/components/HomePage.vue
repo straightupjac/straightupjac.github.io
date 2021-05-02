@@ -6,7 +6,7 @@
         <v-row no-gutters>
           <v-col md=5 offset-md=2>
           <h2>Hi there 👋, I'm Jaclyn</h2>
-          <h3 class=mb-3>Software Engineer. <a href='/' style="color:#88b1b1;text-decoration: none;">Creator.</a></h3>
+          <h3 class=mb-3>Software Engineer. <a href="/#/creative" style="color:#88b1b1;text-decoration: none;">Creator.</a></h3>
             <v-slide-x-transition>
               <div class=mr-2>
               <p ><v-icon>mdi-map-marker</v-icon> Singapore. Hong Kong. Waterloo.</p>

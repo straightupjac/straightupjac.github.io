@@ -214,7 +214,7 @@ import SpaceLab from './projects/SpaceLab.vue';
 import TEDx from './projects/TedX.vue';
 
 export default {
-name: "Home",
+name: "Work",
 components: {
   ComingSoon,
   SpaceLab,
