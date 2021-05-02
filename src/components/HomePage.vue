@@ -92,7 +92,7 @@
             </v-card-title>
             <v-card-text>
             <p>
-              Figma, Video Editing, Dance, Choreography, Music
+              Figma, Storyteller, Video Editing, Dance, Choreography, Music
             </p>
             </v-card-text>
           </v-card>
