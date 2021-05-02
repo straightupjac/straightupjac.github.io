@@ -124,14 +124,6 @@
 <script>
 export default {
   name: "Gallery",
-  data() {
-    return {
-      images: [
-        "../../assets/art/lyricalight.jpg",
-        "https://placekitten.com/g/200/300",
-      ]
-    }
-  },
 }
 </script>
 
