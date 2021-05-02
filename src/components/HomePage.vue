@@ -256,15 +256,6 @@
       </v-row>
       </v-container>
     </div>
-    <!-- <div>
-      <v-container>
-        <v-row no-gutters>
-        <v-col md=6 offset-md=1>
-          <h2>Milestones</h2>
-        </v-col>
-      </v-row>
-      </v-container>
-    </div> -->
   </div>
 </template>
 
