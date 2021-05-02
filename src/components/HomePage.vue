@@ -92,7 +92,7 @@
             </v-card-title>
             <v-card-text>
             <p>
-              Figma, Digital Media, Video Editing, Choreography, Music
+              Figma, Video Editing, Dance, Choreography, Music
             </p>
             </v-card-text>
           </v-card>
@@ -100,11 +100,11 @@
         <v-col md=3 sm=12>
           <v-card elevation=0 tile>
             <v-card-title>
-            <h3>Interpersonal 🤝</h3>
+            <h3>Leadership 🤝</h3>
             </v-card-title>
             <v-card-text>
             <p>
-              Communication, Problem-solving, Adaptability, Teamwork
+              Adaptability, Collaboration, Strategic Thinking, Cultural Competence
             </p>
             </v-card-text>
           </v-card>
