@@ -28,7 +28,7 @@
                 <v-col md=8 offset-md=2>
                   <h1 class=mb-3>Work Experience</h1>
                   <v-row>
-                    <v-col md=3><p>Jan 2021 -</p></v-col>
+                    <v-col md=3><p>Dec 2020 - Present</p></v-col>
                     <v-col>
                       <h3>Software Engineering Intern @ Curvegrid</h3>
                       <p>Building Blockchain tooling technologies.</p>
