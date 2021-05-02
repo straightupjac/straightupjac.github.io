@@ -1,6 +1,5 @@
 <template>
-<div>
-    <div id="projects">
+  <div id="projects">
     <v-container>
       <v-row no-gutters>
       <v-col md=10>
@@ -191,7 +190,6 @@
       </v-col>
     </v-row>
     </v-container>
-  </div>
   </div>
 </template>
 
