@@ -36,7 +36,41 @@
     </div>
     <div>
       <v-row no-gutters>
-
+        <v-img
+          class="creative-img"
+          src="../assets/art/joseph-tan-2.jpg"
+        /><v-img
+          class="creative-img"
+          src="../assets/art/bellas.jpeg"
+        />
+        <v-img
+          class="creative-img"
+          src="../assets/art/joseph-tan-4.jpg"
+        />
+        <v-img
+          class="creative-img"
+          src="../assets/art/kok-hong-4.jpg"
+        />
+        <v-img
+          class="creative-img"
+          src="../assets/art/lyricalight-3.jpg"
+        />
+        <v-img
+          class="creative-img"
+          src="../assets/art/nectar-noises.jpg"
+        />
+        <v-img
+          class="creative-img"
+          src="../assets/art/mindheist.jpg"
+        />
+        <v-img
+          class="creative-img"
+          src="../assets/art/lyricalight-5.jpg"
+        />
+        <v-img
+          class="creative-img"
+          src="../assets/art/sas.jpg"
+        />
       </v-row>
     </div>
   </div>
@@ -62,5 +96,11 @@ data () {
 
 .headshot {
   height: 300px;
+}
+
+.creative-img {
+  height: 300px;
+  width: 400px;
+
 }
 </style>
