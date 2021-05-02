@@ -45,7 +45,7 @@
             </p>
             <br/>
             <p>
-              When I'm on not on my computer, you can find me dancing in a studio, practicing yoga, singing in an a cappella rehearsal or stunting in cheer practice.
+              When I'm not on my computer, you can find me dancing in a studio, practicing yoga, singing in an a cappella rehearsal or stunting in cheer practice.
             </p>
             <br/>
             <p>
