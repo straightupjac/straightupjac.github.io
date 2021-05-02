@@ -28,12 +28,13 @@ const routes = [
     component: Creative,
   },
   {
-    path: '/*',
+    path: '*',
     component: NotFound,
   },
 ];
 
 const router = new Router({
+  mode: 'history',
   routes,
   base: process.env.BASE_URL,
 });
