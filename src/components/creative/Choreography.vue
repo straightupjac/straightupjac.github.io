@@ -16,6 +16,14 @@
     <v-row>
       <v-col>
         <Video
+          :videoID="'j40g4XCVyus'"
+          :title="'AcaBellas ICCA 2020 Quarterfinals'"
+          :date="'February 2020'"
+          :description="'The AcaBellas are the University of Waterloo\'s upper-voice a cappella group, celebrating and developing female presence in a cappella! Choreographed by Jaclyn Chan.'"
+          />
+      </v-col>
+      <v-col>
+        <Video
           :videoID="'HLCXgYaAab0'"
           :title="'Momentum'"
           :date="'April 2018'"
@@ -37,6 +45,14 @@
           :date="'March 2017'"
           :description="'A choreographic collaboration with ten dancers/choreographers. Exploring the impact that digital media and technology plays in our lives.'"
         />
+      </v-col>
+      <v-col>
+        <Video
+          :videoID="'f_syqPXnWks'"
+          :title="'F*ck It'"
+          :date="'Jan 2019'"
+          :description="'Choreographed by Jaclyn Chan & Lucia Garcia Velasco.'"
+          />
       </v-col>
        <v-col>
         <Video

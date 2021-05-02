@@ -16,6 +16,22 @@
     <v-row>
       <v-col>
         <Video
+          :videoID="'AXGKOAKMVPM'"
+          :title="'How You Like That (Dance Cover)'"
+          :date="'August 2020'"
+          :description="'Filmed in Singapore.'"
+          />
+      </v-col>
+      <v-col>
+        <Video
+          :videoID="'5TvDQWuKHFA'"
+          :title="'Santa Baby'"
+          :date="'December 2019'"
+          :description="'Unravel-mEOT. '"
+          />
+      </v-col>
+      <v-col>
+        <Video
           :videoID="'LU5LKVM0M4g'"
           :title="'Fusion'"
           :date="'April 2018'"

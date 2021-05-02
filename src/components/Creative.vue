@@ -3,7 +3,8 @@
     <v-container>
       <h2>My alter ego</h2>
     </v-container>
-    <v-img class="rounded-lg banner" src="../assets/art/face.jpg"></v-img>
+    <div id=creativeBanner>
+    </div>
     <div class=secondary>
       <v-container>
         <v-row>
@@ -23,14 +24,14 @@
           justify="center"
         >
         <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0
-          @click=" $router.push('/creative/gallery') "
-        >Gallery</v-btn>
+          @click=" $router.push('/creative/performances') "
+        >Performances</v-btn>
         <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0
           @click=" $router.push('/creative/choreography') "
         >Choreography</v-btn>
         <v-btn class="ma-5" dark color="#88b1b1" x-large elevation=0
-          @click=" $router.push('/creative/performances') "
-        >Performances</v-btn>
+          @click=" $router.push('/creative/gallery') "
+        >Gallery</v-btn>
         </v-row>
       </v-container>
     </div>
@@ -89,7 +90,13 @@ data () {
 };
 </script>
 
-<style>
+<style scoped>
+#creativeBanner {
+  background-image: url("../assets/art/face.jpg");
+  height: 200px;
+  background-position: center, center;
+}
+
 .banner {
   height: 200px;
 }
@@ -101,6 +108,5 @@ data () {
 .creative-img {
   height: 300px;
   width: 400px;
-
 }
 </style>

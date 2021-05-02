@@ -12,6 +12,7 @@
     "core-js": "^3.6.5",
     "material-design-icons": "^3.0.1",
     "vue": "^2.6.11",
+    "vue-gallery-slideshow": "^1.5.2",
     "vue-pdf": "^4.2.0",
     "vue-router": "^3.5.1",
     "vue-youtube-embed": "^2.2.2",
