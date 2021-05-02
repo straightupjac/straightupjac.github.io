@@ -34,7 +34,6 @@ const routes = [
 ];
 
 const router = new Router({
-  mode: "history",
   routes,
   base: process.env.BASE_URL,
 });
