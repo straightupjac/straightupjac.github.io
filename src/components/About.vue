@@ -10,7 +10,7 @@
             <v-slide-x-transition>
               <div class=mr-2>
               <v-card class=mb-2 color=info tile elevation=0>
-                <v-card-text>📍 Singapore. Hong Kong. Waterloo.</v-card-text></v-card>
+                <v-card-text>📍 Singapore. Hong Kong. Canada.</v-card-text></v-card>
               <v-card class=mb-2 color=info tile elevation=0>
                 <v-card-text>🎓 Computer science and finance student at the University of Waterloo</v-card-text></v-card>
               <v-card class=mb-2 color=info tile elevation=0>
