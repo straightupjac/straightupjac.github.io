@@ -13,7 +13,7 @@
       </template>
 
       <v-card>
-        <v-card-title class="primary">
+        <v-card-title class="secondary">
           <h1 class=ma-4>SpaceLab</h1>
         </v-card-title>
         <v-card-text>

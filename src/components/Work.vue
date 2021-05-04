@@ -3,7 +3,7 @@
     <v-container id="top">
       <v-row no-gutters>
       <v-col md=9>
-        <h2>What I've worked on...</h2>
+        <h2>Some things I've worked on...</h2>
       </v-col>
       <v-spacer/>
       <v-btn
@@ -28,7 +28,7 @@
             </div>
              </v-card-text>
              <v-card-text>
-               {{projects.frv.description}}
+               {{projects.frv.longDescription}}
              </v-card-text>
              <v-card-actions class="card-actions">
             <v-spacer></v-spacer>
@@ -44,7 +44,7 @@
             <img contain :src="require(`@/${projects.sixteenWeeks.image}`)"/>
           </v-card-text>
           <v-card-text>
-            {{projects.sixteenWeeks.description}}
+            {{projects.sixteenWeeks.longDescription}}
           </v-card-text>
           <v-card-actions class="card-actions">
             <v-spacer></v-spacer>
@@ -60,7 +60,7 @@
           <img contain :src="require(`@/${projects.soGal.image}`)"/>
             </v-card-text>
             <v-card-text>
-              {{projects.soGal.description}}
+              {{projects.soGal.longDescription}}
             </v-card-text>
             <v-card-actions class="card-actions">
           <v-spacer></v-spacer>
@@ -76,7 +76,7 @@
           <img contain :src="require(`@/${projects.techplus.image}`)"/>
           </v-card-text>
           <v-card-text>
-            {{projects.techplus.description}}
+            {{projects.techplus.longDescription}}
             </v-card-text>
           <v-card-actions class="card-actions">
           <v-spacer></v-spacer>
@@ -91,7 +91,7 @@
           <img class="rounded-lg" contain :src="require(`@/${projects.ted.image}`)"/>
           </v-card-text>
             <v-card-text>
-              {{projects.ted.description}}
+              {{projects.ted.longDescription}}
             </v-card-text>
           <v-card-actions class="card-actions">
             <v-spacer class="d-flex justify-space-between align-end" />
@@ -118,7 +118,7 @@
           <img contain :src="require(`@/${projects.bitFinca.image}`)"/>
             </v-card-text>
             <v-card-text>
-              {{projects.bitFinca.description}}
+              {{projects.bitFinca.longDescription}}
             </v-card-text>
           <v-card-actions class="card-actions">
           <v-spacer></v-spacer>
@@ -133,7 +133,7 @@
           <img contain :src="require(`@/${projects.pearShare.image}`)"/>
           </v-card-text>
             <v-card-text>
-            {{projects.pearShare.description}}
+            {{projects.pearShare.longDescription}}
             </v-card-text>
           <v-card-actions class="card-actions">
           <v-spacer></v-spacer>
@@ -148,7 +148,7 @@
           <img class="rounded-lg" contain :src="require(`@/${projects.spaceLab.image}`)"/>
           </v-card-text>
             <v-card-text>
-            {{projects.spaceLab.description}}
+            {{projects.spaceLab.longDescription}}
             </v-card-text>
           <v-card-actions class="card-actions">
             <v-spacer class="d-flex justify-space-between align-end" />
@@ -163,7 +163,7 @@
           <img class="rounded-lg" contain :src="require(`@/${projects.frc.image}`)"/>
           </v-card-text>
           <v-card-text>
-            {{projects.frc.description}}
+            {{projects.frc.longDescription}}
             </v-card-text>
           <v-card-actions class="card-actions">
             <v-spacer class="d-flex justify-space-between align-end" />
@@ -178,7 +178,7 @@
           <img class="rounded-lg" contain :src="require(`@/${projects.gnome.image}`)"/>
           </v-card-text>
           <v-card-text>
-            {{projects.gnome.description}}
+            {{projects.gnome.longDescription}}
             </v-card-text>
           <v-card-actions class="card-actions">
             <v-spacer class="d-flex justify-space-between align-end" />
@@ -193,7 +193,7 @@
           <img class="rounded-lg" contain :src="require(`@/${projects.htn.image}`)"/>
           </v-card-text>
           <v-card-text>
-            {{projects.htn.description}}
+            {{projects.htn.longDescription}}
             </v-card-text>
           <v-card-actions class="card-actions">
             <v-spacer class="d-flex justify-space-between align-end" />

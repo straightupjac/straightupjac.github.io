@@ -1,7 +1,8 @@
 {
   "sixteenWeeks": {
     "title": "16 Weeks",
-    "description": "Content Director. A group of Engineering and CS students sharing our experiences in tech across different roles, locations, and companies!",
+    "description": "Content Director. A group of students sharing our experiences in tech across different roles, locations, and companies!",
+    "longDescription": "Content Director. Leading a team of 16+ content creators to produce engaging video content. A group of students sharing our experiences in tech across different roles, locations, and companies!",
     "image": "assets/projects/16weekslogo.png",
     "links": [
       {
@@ -13,6 +14,7 @@
   "frv" : {
     "title": "Front Row Ventures",
     "description": "Investment Team. FRV is Canada's first university-focused venture capital fund investing in Canada's most promising university founders.",
+    "longDescription": "Investment Team. Responsible for sourcing deals and conducting due diligence. FRV is Canada's first university-focused venture capital fund investing in Canada's most promising university founders.",
     "image": "assets/projects/frv.png",
     "links": [
       {
@@ -28,6 +30,7 @@
   "soGal" : {
     "title": "SoGal Waterloo",
     "description": "Marketing Lead. Working to close the diversity gap in entrepreneurship and venture capital.",
+    "longDescription": "Marketing Lead. SoGal is working to close the diversity gap in entrepreneurship and venture capital.",
     "image": "assets/projects/SoGal.png",
     "links": [
       {
@@ -42,7 +45,8 @@
   },
   "bitFinca": {
     "title": "Bitfinca",
-    "description": "MarketMake Hackathon. A blockchain-based lending platform that allows anyone to microinvest in ventures that matter.",
+    "description": "Full-stack development and front end. A blockchain-based lending platform that allows anyone to microinvest in ventures that matter. MarketMake Hackathon submission.",
+    "longDescription": "MarketMake Hackathon submission. Full-stack development and front end. Bitfinca is a blockchain-based lending platform that allows anyone to microinvest in ventures that matter.",
     "image": "assets/projects/bitfinca.png",
     "links": [
       {
@@ -53,7 +57,8 @@
   },
   "techplus": {
     "title": "Tech+",
-    "description": "Mentorship Program Organizer. Cultivating a more inclusive and diverse tech community at UWaterloo.",
+    "description": "Mentorship Program Organizer. Facilitated over 100 mentorship pairs. Cultivating a more inclusive and diverse tech community at UWaterloo.",
+    "longDescription": "Mentorship Program Organizer. Facilitated over 100 mentorship pairs. Tech+ aims to cultivate a more inclusive and diverse tech community at UWaterloo.",
     "image": "assets/projects/techplus.png",
     "links": [
       {
@@ -64,7 +69,8 @@
   },
   "pearShare": {
     "title": "Pearshare",
-    "description": "Angelhack Singapore 2018. Code for a Cause Impact Winner. Reducing food wastage.",
+    "description": "Angelhack Singapore 2018. Code for a Cause Impact Winner. Reducing food wastage through an after-hours marketplace.",
+    "longDescription": "Angelhack Singapore 2018. Code for a Cause Impact Winner. Reducing food wastage through an after-hours marketplace.",
     "image": "assets/projects/pearshare.png",
     "links": [
       {
@@ -76,21 +82,24 @@
   "spaceLab": {
     "title": "SpaceLab",
     "description": "First team in Southeast Asia to win SGD$60k grant to launch biology experiment sent to the International Space Station. Launched on the SpaceX Falcon 9 on June 4, 2017.",
+    "longDescription": "First team in Southeast Asia to win SGD$60k grant to launch biology experiment sent to the International Space Station. Launched on the SpaceX Falcon 9 on June 4, 2017.",
     "image": "assets/projects/rocket.png"
   },
   "ted": {
     "title": "TEDx",
     "description": "TEDxYouth@SAS Executive Producer. Lead Organizer. Selected to attend TEDFest 2018, an official TED conference in NYC",
+    "longDescription": "TEDxYouth@SAS Executive Producer. Lead Organizer. Selected to attend TEDFest 2018, an official TED conference in NYC",
     "image": "assets/projects/turningtides.png"
   },
   "frc": {
     "title": "Robotics",
     "description": "Team Captain. Youth Mentor. Project Manager. Awarded Excellence in Robotics Award, Senior Technology Award and PTA Scholar Award for contributions to robotics",
+    "longDescription": "Team Captain. Youth Mentor. Project Manager. Awarded Excellence in Robotics Award, Senior Technology Award and PTA Scholar Award for contributions to robotics",
     "image": "assets/projects/robot.png"
   },
   "gnome": {
     "title": "G-nome",
-    "description": "BostonHacks 2019. G-nome provides a personalized experience tailored for the patient including medication reminders, symptom tracking and appointment making through a voice-activated care system.",
+    "longDescription": "BostonHacks 2019 submission. G-nome provides a personalized experience tailored for the patient including medication reminders, symptom tracking and appointment making through a voice-activated care system.",
     "image": "assets/projects/gnome.png",
     "links": [
       {
@@ -101,7 +110,7 @@
   },
   "htn": {
     "title": "ëquiliberate",
-    "description": "Hack The North 2018. Equiliberate combats ergonomic challenges that computer users face today by empowering you to fix your posture.",
+    "longDescription": "Hack The North 2018 submission. Equiliberate combats ergonomic challenges that computer users face today by empowering you to fix your posture.",
     "image": "assets/projects/htn.png",
     "links": [
       {

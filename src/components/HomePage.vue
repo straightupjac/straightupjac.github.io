@@ -25,31 +25,38 @@
           </v-col>
         </v-row>
         <v-row class=mt-8>
-                <v-col md=8 offset-md=2>
-                  <h1 class=mb-3>Work Experience</h1>
-                  <v-row>
-                    <v-col md=3><p>Dec 2020 - Present</p></v-col>
-                    <v-col>
-                      <h3>Software Engineering Intern @ Curvegrid</h3>
-                      <p>Building Blockchain tooling technologies.</p>
-                    </v-col>
-                  </v-row>
-                  <v-row>
-                    <v-col md=3><p>Jun 2020-Aug 2020</p></v-col>
-                    <v-col>
-                      <h3>Quantitative Equity Engineering Intern @ CPP Investments</h3>
-                      <p>Implemented statistical analytics tools for factor investing portfolios</p>
-                    </v-col>
-                  </v-row>
-                   <v-row>
-                     <v-col md=3><p>Jun 2020-Aug 2020</p></v-col>
-                    <v-col>
-                      <h3>Robotics Engineer Intern @ nuTonomy</h3>
-                      <p>Autonomous mobility solutions</p>
-                    </v-col>
-                  </v-row>
-                </v-col>
-              </v-row>
+          <v-col md=8 offset-md=2>
+            <h1 class=mb-3>Work Experience</h1>
+            <v-row>
+              <v-col md=3><p>Dec 2020 - Present</p></v-col>
+              <v-col>
+                <h3>Software Engineering Intern @ Curvegrid</h3>
+                <p>Building Blockchain tooling technologies with Go, Solidity and Javascript.</p>
+              </v-col>
+            </v-row>
+            <v-row>
+              <v-col md=3><p>April 2021 - Present</p></v-col>
+              <v-col>
+                <h3>Venture Capital Intern @ Kirin Adams</h3>
+                <p>Conducting deal-specific diligence, researching market trends in real estate and tech, and creating investor-facing materials.</p>
+              </v-col>
+            </v-row>
+            <v-row>
+              <v-col md=3><p>Jun 2020-Aug 2020</p></v-col>
+              <v-col>
+                <h3>Quantitative Equity Engineering Intern @ CPP Investments</h3>
+                <p>Implemented statistical analytics tools for factor investing portfolios with Python and SQL.</p>
+              </v-col>
+            </v-row>
+              <v-row>
+                <v-col md=3><p>Jun 2020-Aug 2020</p></v-col>
+              <v-col>
+                <h3>Robotics Engineer Intern @ nuTonomy</h3>
+                <p>Built autonomous mobility tools with Python, Javascript and Autodesk Fusion360.</p>
+              </v-col>
+            </v-row>
+          </v-col>
+        </v-row>
       </v-container>
     </div>
     <!-- skills section -->
