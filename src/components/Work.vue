@@ -12,7 +12,7 @@
         Projects
       </v-btn>
       <v-btn
-        tile href="./files/jaclyn-chan-resume.pdf" target="_blank"
+        tile href="./files/jaclyn-chan-resume-fintech.pdf" target="_blank"
         elevation=0 class="mt-4 site-btn">
         resume
       </v-btn>

@@ -26,7 +26,15 @@
         </v-row>
         <v-row class=mt-8>
           <v-col md=8 offset-md=2>
+            <v-row>
             <h1 class=mb-3>Work Experience</h1>
+            <v-spacer/>
+            <v-btn
+              tile href="./files/jaclyn-chan-resume-fintech.pdf" target="_blank"
+              elevation=0 class="mt-4 site-btn">
+              resume
+            </v-btn>
+            </v-row>
             <v-row>
               <v-col md=3><p>Dec 2020 - Present</p></v-col>
               <v-col>
