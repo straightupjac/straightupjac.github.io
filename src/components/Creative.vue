@@ -1,7 +1,15 @@
 <template>
   <div>
     <v-container>
-      <h2>My alter ego</h2>
+      <v-row>
+        <h2>My alter ego</h2>
+        <v-spacer/>
+        <v-btn
+          tile href="./files/jaclyn-chan-dance.pdf" target="_blank"
+          elevation=0 class="mt-4 site-btn">
+          dance resume
+        </v-btn>
+      </v-row>
     </v-container>
     <div id=creativeBanner>
     </div>
