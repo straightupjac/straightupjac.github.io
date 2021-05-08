@@ -57,7 +57,7 @@
               </v-col>
             </v-row>
               <v-row>
-                <v-col md=3><p>Jun 2020-Aug 2020</p></v-col>
+                <v-col md=3><p>Jun 2018-Aug 2018</p></v-col>
               <v-col>
                 <h3>Robotics Engineer Intern @ nuTonomy</h3>
                 <p>Built autonomous mobility tools with Python, Javascript and Autodesk Fusion360.</p>
