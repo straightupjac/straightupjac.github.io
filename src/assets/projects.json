@@ -119,5 +119,16 @@
       }
     ]
   },
-  "aboutMeArt":  "What started as weekly baby ballet classes turned into my passion. I began dabbling in various performing arts from the age of 5. I have training in the RAD, CSTD and Vaganova style of ballet, as well as contemporary, jazz, hip hop and tap dance. I am passionate about creating work and have choreographed various pieces. Aside from dance, I enjoy acting and singing. I have performed in musical theatre productions, short films and choir concerts. I am experienced in teaching ballet, jazz and musical theatre to children and adults. I hope that through teaching I will be able pay it forward and inspire younger dancers to pursue their passions throughout school and beyond."
+  "aboutMeArt":  "What started as weekly baby ballet classes turned into my passion. I began dabbling in various performing arts from the age of 5. I have training in the RAD, CSTD and Vaganova style of ballet, as well as contemporary, jazz, hip hop and tap dance. I am passionate about creating work and have choreographed various pieces. Aside from dance, I enjoy acting and singing. I have performed in musical theatre productions, short films and choir concerts. I am experienced in teaching ballet, jazz and musical theatre to children and adults. I hope that through teaching I will be able pay it forward and inspire younger dancers to pursue their passions throughout school and beyond.",
+  "jonChan": {
+    "title": "Portfolio Design",
+    "longDescription": "Designed and implemented a personal portfolio website for Jonathan Chan with Vue.js.",
+    "image": "assets/projects/jon-chan.png",
+    "links": [
+      {
+        "icon": "mdi-web",
+        "link": "https://jaclynchan.me/stixgrix/#/"
+      }
+    ]
+  }
 }
