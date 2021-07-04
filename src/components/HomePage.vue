@@ -30,7 +30,7 @@
             <h1 class=mb-3>Work Experience</h1>
             <v-spacer/>
             <v-btn
-              tile href="./files/jaclyn-chan-resume-fintech.pdf" target="_blank"
+              tile href="./files/jaclyn-chan-resume.pdf" target="_blank"
               elevation=0 class="mt-4 site-btn">
               resume
             </v-btn>
@@ -43,7 +43,7 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col md=3><p>April 2021 - Present</p></v-col>
+              <v-col md=3><p>April 2021 - June 2021</p></v-col>
               <v-col>
                 <h3>Venture Capital Intern @ Kirin Adams</h3>
                 <p>Conducting deal-specific diligence, researching market trends in real estate and tech, and creating investor-facing materials.</p>
