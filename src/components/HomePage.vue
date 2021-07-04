@@ -43,7 +43,7 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col md=3><p>June 2020 - Present</p></v-col>
+              <v-col md=3><p>Jun 2020 - Present</p></v-col>
               <v-col>
                 <h3>Investment Fellow @ Riot Ventures</h3>
                 <p>Summer Fleet. Sourcing startups, researching investment verticals and taking pitches.</p>
