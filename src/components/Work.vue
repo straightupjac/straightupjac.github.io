@@ -144,21 +144,6 @@
       <v-col md=4 xs=6 sm=6 class="d-flex">
         <v-card color=secondary elevation=0 class="card-outer">
           <v-card-text>
-          <h3 class=mb-2>{{projects.pearShare.title}}</h3>
-          <img contain :src="require(`@/${projects.pearShare.image}`)"/>
-          </v-card-text>
-            <v-card-text>
-            {{projects.pearShare.longDescription}}
-            </v-card-text>
-          <v-card-actions class="card-actions">
-          <v-spacer></v-spacer>
-          <v-btn href="https://pearshare.github.io/" target="_blank" tile elevation=0 class=site-btn><v-icon>mdi-web</v-icon></v-btn>
-          </v-card-actions>
-        </v-card>
-      </v-col>
-      <v-col md=4 xs=6 sm=6 class="d-flex">
-        <v-card color=secondary elevation=0 class="card-outer">
-          <v-card-text>
           <h3 class=mb-2>{{projects.spaceLab.title}}</h3>
           <img class="rounded-lg" contain :src="require(`@/${projects.spaceLab.image}`)"/>
           </v-card-text>
@@ -168,6 +153,21 @@
           <v-card-actions class="card-actions">
             <v-spacer class="d-flex justify-space-between align-end" />
           <space-lab/>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+      <v-col md=4 xs=6 sm=6 class="d-flex">
+        <v-card color=secondary elevation=0 class="card-outer">
+          <v-card-text>
+          <h3 class=mb-2>{{projects.pearShare.title}}</h3>
+          <img contain :src="require(`@/${projects.pearShare.image}`)"/>
+          </v-card-text>
+            <v-card-text>
+            {{projects.pearShare.longDescription}}
+            </v-card-text>
+          <v-card-actions class="card-actions">
+          <v-spacer></v-spacer>
+          <v-btn href="https://pearshare.github.io/" target="_blank" tile elevation=0 class=site-btn><v-icon>mdi-web</v-icon></v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
