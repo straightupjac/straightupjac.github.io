@@ -43,6 +43,13 @@
               </v-col>
             </v-row>
             <v-row>
+              <v-col md=3><p>June 2020 - Present</p></v-col>
+              <v-col>
+                <h3>Investment Fellow @ Riot Ventures</h3>
+                <p>Summer Fleet. Sourcing startups, researching investment verticals and taking pitches.</p>
+              </v-col>
+            </v-row>
+            <v-row>
               <v-col md=3><p>Apr 2021 - Jun 2021</p></v-col>
               <v-col>
                 <h3>Venture Capital and Real Estate Investing Intern @ Kirin Adams</h3>
