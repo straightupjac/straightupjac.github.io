@@ -39,7 +39,8 @@
               <a href="https://www.curvegrid.com/" target="_blank">
                 <span class=curvegrid>
               Curvegrid</span></a>, a blockchain tooling company based in Tokyo.
-              I am also currently a part-time <span class=vc>venture capital</span> intern at <a href="https://www.kirinadams.com/" target="_blank"><span class=kirin>Kirin Adams</span></a>, a venture capital and real estate firm, and on the investment team at <a href="http://frontrow.vc/" target="_blank">Front Row Ventures</a>, a student venture capital fund.
+              I am also currently an investment associate at <a href="http://frontrow.vc/" target="_blank">Front Row Ventures</a>, a student venture capital fund.
+              During Spring 2021, I was a <span class=vc>venture capital</span> intern at <a href="https://www.kirinadams.com/" target="_blank"><span class=kirin>Kirin Adams</span></a>, a venture capital and real estate firm, where I performed due diligence, researched market trends and prepared investor facing materials for the firm.
               During summer 2020, I worked at <a href="https://www.cppinvestments.com/" target="_blank"><span class=cpp>CPP Investments</span></a>, a global investment management organisation with CAD$400+ billion assets under management as a <span class=quant>quantitative equity</span> engineer intern.
               I previously interned at <a href="https://www.aptiv.com/en/solutions/autonomous-mobility" target="_blank"><span class=nutonomy>nuTonomy</span></a> (acquired by Aptiv) as a <span class=robotics>robotics engineer</span> intern on the embedded systems team.
             </p>
