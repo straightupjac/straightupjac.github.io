@@ -43,9 +43,9 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col md=3><p>April 2021 - June 2021</p></v-col>
+              <v-col md=3><p>Apr 2021 - Jun 2021</p></v-col>
               <v-col>
-                <h3>Venture Capital Intern @ Kirin Adams</h3>
+                <h3>Venture Capital and Real Estate Investing Intern @ Kirin Adams</h3>
                 <p>Conducting deal-specific diligence, researching market trends in real estate and tech, and creating investor-facing materials.</p>
               </v-col>
             </v-row>
