@@ -36,9 +36,9 @@
             </v-btn>
             </v-row>
             <v-row>
-              <v-col md=3><p>Fall 2021</p></v-col>
+              <v-col md=3><p>Incoming Fall 2021</p></v-col>
               <v-col>
-                <h3>Incoming Software Engineering Intern @ Coinbase</h3>
+                <h3>Software Engineering Intern @ Coinbase</h3>
                 <p>Building blockchain tools to increase economic freedom in the world.</p>
               </v-col>
             </v-row>
