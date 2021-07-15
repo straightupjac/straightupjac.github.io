@@ -2,7 +2,6 @@
 <div id="app">
   <v-app
     background=secondary
-    :dark="setTheme()"
   >
     <NavBar />
     <v-main>

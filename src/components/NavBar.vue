@@ -6,15 +6,6 @@
     color=secondary
     fade-img-on-scroll
   >
-  <!-- <v-switch
-    color=invert
-    class="ml-15 mt-5"
-    inset
-    v-model="goDark"
-    prepend-icon="mdi-weather-sunny"
-    append-icon="mdi-moon-waning-crescent"
-  >
-  </v-switch> -->
     <v-spacer/>
     <div class="ml-10 mr-10">
       <v-btn
@@ -44,21 +35,3 @@
     </div>
   </v-app-bar>
 </template>
-
-<script>
-export default {
-  name: "NavBar",
-  data: () => ({
-    goDark: false,
-  }),
-  methods: {
-    setTheme() {
-      if (this.goDark === true) {
-        return (this.$vuetify.theme.dark = true);
-      } else {
-        return (this.$vuetify.theme.dark = false);
-      }
-    },
-  },
-};
-</script>
