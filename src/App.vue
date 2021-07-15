@@ -25,26 +25,6 @@ export default {
     Footer,
     NavBar,
   },
-  data: () => ({
-    userBar: false,
-    icons: [
-      {icon: "mdi-linkedin", link: "https://www.linkedin.com/in/jaclyndchan/",},
-      {icon: "mdi-instagram", link: "https://www.instagram.com/straightupraspberry", },
-      {icon: "mdi-twitter", link: "https://twitter.com/straightupjac"},
-      {icon: "mdi-github", link: "https://github.com/straightupjac"},
-      {icon: "mdi-email", link: "mailto:jdc.jaclyn@gmail.com"},
-      ],
-    goDark: false,
-  }),
-  methods: {
-    setTheme() {
-      if (this.goDark === true) {
-        return (this.$vuetify.theme.dark = true);
-      } else {
-        return (this.$vuetify.theme.dark = false);
-      }
-    },
-  },
 };
 </script>
 

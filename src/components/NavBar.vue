@@ -44,3 +44,21 @@
     </div>
   </v-app-bar>
 </template>
+
+<script>
+export default {
+  name: "NavBar",
+  data: () => ({
+    goDark: false,
+  }),
+  methods: {
+    setTheme() {
+      if (this.goDark === true) {
+        return (this.$vuetify.theme.dark = true);
+      } else {
+        return (this.$vuetify.theme.dark = false);
+      }
+    },
+  },
+};
+</script>
