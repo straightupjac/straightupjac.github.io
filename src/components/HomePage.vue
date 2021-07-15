@@ -36,10 +36,17 @@
             </v-btn>
             </v-row>
             <v-row>
+              <v-col md=3><p>Fall 2021</p></v-col>
+              <v-col>
+                <h3>Incoming Software Engineering Intern @ Coinbase</h3>
+                <p>Building blockchain tools to increase economic freedom in the world.</p>
+              </v-col>
+            </v-row>
+            <v-row>
               <v-col md=3><p>Dec 2020 - Present</p></v-col>
               <v-col>
                 <h3>Software Engineering Intern @ Curvegrid</h3>
-                <p>Building Blockchain tooling technologies with Go, Solidity and Javascript.</p>
+                <p>Building blockchain middleware and DApps with Go, Solidity and Javascript.</p>
               </v-col>
             </v-row>
             <v-row>
@@ -90,7 +97,7 @@
             </v-card-title>
             <v-card-text>
             <p>
-              Python, Javascript, C/C++, Scala, Java, Scheme, Bash, SQL, R, RobotC, Go, Solidity
+              {{ info.skills.languages }}
             </p>
             </v-card-text>
           </v-card>
@@ -102,7 +109,7 @@
              </v-card-title>
             <v-card-text>
             <p>
-              Git, Jira, Pandas, Linux, Excel, Docker, MLFlow, Vue.js, CAD
+              {{ info.skills.tools }}
             </p>
             </v-card-text>
           </v-card>
@@ -114,7 +121,7 @@
             </v-card-title>
             <v-card-text>
             <p>
-              Figma, Storyteller, Video Editing, Dance, Choreography, Music
+              {{ info.skills.creative }}
             </p>
             </v-card-text>
           </v-card>
@@ -126,7 +133,7 @@
             </v-card-title>
             <v-card-text>
             <p>
-              Adaptability, Collaboration, Strategic Thinking, Cultural Competence
+              {{ info.skills.interpersonal }}
             </p>
             </v-card-text>
           </v-card>
@@ -284,6 +291,7 @@
 <script>
 import SpaceLab from './projects/SpaceLab.vue';
 import TEDx from './projects/TedX.vue';
+import Info from '@/assets/info.json';
 import Projects from '@/assets/projects.json';
 
 export default {
@@ -295,6 +303,7 @@ export default {
   data () {
     return {
       projects: Projects,
+      info: Info,
     }
   },
   mounted() {
